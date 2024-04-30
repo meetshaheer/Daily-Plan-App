@@ -130,7 +130,7 @@ class plannerView extends StatelessWidget {
                   catIcon: Icons.assured_workload,
                 ),
               ],
-            ).paddingLeft(28),
+            ).paddingLeft(29),
             const Row(
               children: [
                 todoContainerWidget(
