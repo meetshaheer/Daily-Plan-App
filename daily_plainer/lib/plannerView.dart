@@ -125,7 +125,7 @@ class plannerView extends StatelessWidget {
                 todoContainerWidget(
                   title: "Financial",
                   task: "1 Task",
-                  primary: Color(0xffC4CBBF),
+                  primary: Color.fromARGB(251, 196, 203, 191),
                   secondary: Color(0xff4E756C),
                   catIcon: Icons.assured_workload,
                 ),
