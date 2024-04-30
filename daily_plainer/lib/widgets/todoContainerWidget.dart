@@ -6,6 +6,7 @@ class todoContainerWidget extends StatelessWidget {
   final String task;
   final Color primary;
   final Color secondary;
+  final IconData catIcon;
 
   const todoContainerWidget({
     super.key,
@@ -13,6 +14,7 @@ class todoContainerWidget extends StatelessWidget {
     required this.task,
     required this.primary,
     required this.secondary,
+    required this.catIcon,
   });
   @override
   Widget build(BuildContext context) {
@@ -31,7 +33,7 @@ class todoContainerWidget extends StatelessWidget {
               Row(
                 children: [
                   Icon(
-                    Icons.laptop_mac,
+                    catIcon,
                     color: secondary,
                     size: 50,
                   ).paddingLeft(30).paddingTop(30),
@@ -48,7 +50,7 @@ class todoContainerWidget extends StatelessWidget {
                 child: Text(
                   title,
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 16,
                     fontWeight: FontWeight.w700,
                     color: secondary,
                   ),
@@ -59,7 +61,7 @@ class todoContainerWidget extends StatelessWidget {
                 child: Text(
                   task,
                   style: TextStyle(
-                    fontSize: 16,
+                    fontSize: 13,
                     fontWeight: FontWeight.w400,
                     color: secondary,
                   ),

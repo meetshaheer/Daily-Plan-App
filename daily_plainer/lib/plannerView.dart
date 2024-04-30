@@ -67,29 +67,33 @@ class plannerView extends StatelessWidget {
         const Row(
           children: [
             todoContainerWidget(
-                title: "Work",
-                task: "5 Task",
-                primary: Color(0xffBEEDF6),
-                secondary: Color(0xff31AFC8)),
+              title: "Work",
+              task: "5 Task",
+              primary: Color(0xffBEEDF6),
+              secondary: Color(0xff31AFC8),
+              catIcon: Icons.laptop_mac,
+            ),
             todoContainerWidget(
-                title: "Daily Routines",
-                task: "3 Task",
-                primary: Color(0xffF6BEBE),
-                secondary: Color(0xffEF6565))
+              title: "Daily Routines",
+              task: "3 Task",
+              primary: Color(0xffF6BEBE),
+              secondary: Color(0xffEF6565),
+              catIcon: Icons.route_outlined,
+            )
           ],
         ),
         const Row(
           children: [
-            todoContainerWidget(
-                title: "Free Time",
-                task: "1 Task",
-                primary: Color(0xffB79EFF),
-                secondary: Color(0xff6A48CC)),
-            todoContainerWidget(
-                title: "Free Time",
-                task: "1 Task",
-                primary: Color(0xff69EDD5),
-                secondary: Color(0xff23B097)),
+            // todoContainerWidget(
+            //     title: "Free Time",
+            //     task: "1 Task",
+            //     primary: Color(0xffB79EFF),
+            //     secondary: Color(0xff6A48CC)),
+            // todoContainerWidget(
+            //     title: "Education",
+            //     task: "3 Task",
+            //     primary: Color(0xff69EDD5),
+            //     secondary: Color(0xff23B097)),
           ],
         )
       ],
