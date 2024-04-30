@@ -84,16 +84,20 @@ class plannerView extends StatelessWidget {
         ),
         const Row(
           children: [
-            // todoContainerWidget(
-            //     title: "Free Time",
-            //     task: "1 Task",
-            //     primary: Color(0xffB79EFF),
-            //     secondary: Color(0xff6A48CC)),
-            // todoContainerWidget(
-            //     title: "Education",
-            //     task: "3 Task",
-            //     primary: Color(0xff69EDD5),
-            //     secondary: Color(0xff23B097)),
+            todoContainerWidget(
+              title: "Free Time",
+              task: "1 Task",
+              primary: Color(0xffB79EFF),
+              secondary: Color(0xff6A48CC),
+              catIcon: Icons.history,
+            ),
+            todoContainerWidget(
+              title: "Education",
+              task: "3 Task",
+              primary: Color(0xff69EDD5),
+              secondary: Color(0xff23B097),
+              catIcon: Icons.cast_for_education,
+            ),
           ],
         )
       ],
