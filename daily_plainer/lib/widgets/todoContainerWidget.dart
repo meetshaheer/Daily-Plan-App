@@ -25,8 +25,8 @@ class todoContainerWidget extends StatelessWidget {
             color: primary,
             borderRadius: BorderRadius.circular(25),
           ),
-          height: 175,
-          width: 175,
+          height: 170,
+          width: 170,
           margin: const EdgeInsets.only(right: 20),
           child: Column(
             children: [
